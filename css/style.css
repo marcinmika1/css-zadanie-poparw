@@ -1,5 +1,6 @@
 body{
     position: static;
+    margin: 0;
     
 }
 
@@ -12,13 +13,17 @@ body{
       
 }
 
-.menu-item{
-  
-    font-size: 30px;
-    margin-left: 20px;
-    display: inline;
-    text-align: center;
+nav#menu > ul{
+    margin:0;
 }
+
+nav#menu > ul > li.menu-item{
+    font-size: 20px;
+    display: inline-block;
+    padding: 25px;
+    text-decoration: none;
+}
+
 
 #header{
     width: 100vw;
