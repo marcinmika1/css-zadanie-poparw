@@ -1,25 +1,33 @@
 body{
-
-    text-align: center;
+    position: static;
+    
 }
 
 #menu{
+    position: absolute;
     background-color: black;
     width: 100vw;
     height: 100px;
-    text-align: center;  
+    text-align: center;
+      
 }
 
 .menu-item{
-    font-size: 40px;
-    float: left;
+  
+    font-size: 30px;
     margin-left: 20px;
-    color: white;
+    display: inline;
+    text-align: center;
 }
 
 #header{
-    width: 100vm;
-    
-    
+    width: 100vw;
 }
 
+Header>img{
+    width: 100%;
+}
+
+li>a{
+    color: white;
+}
