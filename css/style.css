@@ -1,38 +1,53 @@
-body{
-    position: static;
+body {
     margin: 0;
-    
 }
 
-#menu{
-    position: absolute;
+#menu {
+
     background-color: black;
-    width: 100vw;
-    height: 100px;
     text-align: center;
-      
 }
 
-nav#menu > ul{
-    margin:0;
+nav#menu>ul {
+    margin: 0;
 }
 
-nav#menu > ul > li.menu-item{
+nav#menu>ul>li.menu-item {
     font-size: 20px;
     display: inline-block;
     padding: 25px;
+}
+
+nav#menu>ul>li.menu-item a {
     text-decoration: none;
-}
-
-
-#header{
-    width: 100vw;
-}
-
-Header>img{
-    width: 100%;
-}
-
-li>a{
+    font-size: 40px;
     color: white;
 }
+
+nav#menu>ul>li.menu-item a:hover {
+    color: gray;
+}
+
+#header {
+
+    position: relative;
+    text-align: center;
+}
+
+header#header>img {
+    width: 100%;
+    
+}
+
+header#header h1#main-header-text{
+    position: absolute;
+    top: 50%;
+    font-weight: 700px;
+    font-size: 100px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-transform: uppercase;
+    color: white;
+}
+
